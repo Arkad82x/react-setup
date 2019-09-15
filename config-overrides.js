@@ -10,7 +10,7 @@ module.exports = function override(config, env) {
       modules: [
         ...config.resolve.modules,
         path.resolve('./src'),
-        path.resolve('./node_modules')
+        'node_modules'
       ]
     }
   }
